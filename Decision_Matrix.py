@@ -5,13 +5,13 @@ Created on Wed Jan 24 13:54:35 2024
 @author: James
 """
 import numpy as np
-
-expert_1 = (1, 1, 1/3, 1/3, 1/5, 1/5)   #Xia
-expert_2 = (1/3, 1/3, 9, 3, 7, 7)       #Jan
-expert_3 = (5,3, 1/3, 1, 1/5, 1/4)      #Junjie
-expert_4 = (2, 4, 8, 3, 2, 4)           #James
-expert_5 = (1/6,1/3,7,3,5,5)            #Dr. Nussbaum
-expert_6 = (3,7,3,7,1/3,1/7)            #Dr. Scheider
+#The expert weightings below taken from Sataay's 9-point scale.
+expert_1 = (1, 1, 1/3, 1/3, 1/5, 1/5)   
+expert_2 = (1/3, 1/3, 9, 3, 7, 7)       
+expert_3 = (5,3, 1/3, 1, 1/5, 1/4)      
+expert_4 = (2, 4, 8, 3, 2, 4)          
+expert_5 = (1/6,1/3,7,3,5,5)           
+expert_6 = (3,7,3,7,1/3,1/7)            
 
 criteria = ("Average wind speed","Large distance from residential areas","Large distance from nature areas","Proximity to 50kV/150kV transformer stations")
 experts = (expert_1, expert_2, expert_3, expert_4, expert_5, expert_6)
